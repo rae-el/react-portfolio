@@ -1,0 +1,39 @@
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.experience h2{
+    text-align: center;
+}
+.exp{
+    padding: 2%;
+    margin: 2%;
+    justify-self: center;
+    align-self: center;
+}
+.exicon{
+    width: 40px;
+    height: 40px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+#experience-top{
+    margin:auto;
+    text-align: center;
+}
+.underlineSkills{
+    width: 80%;
+    margin: auto;
+    height: 3px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 950px) {
+    .experience{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }

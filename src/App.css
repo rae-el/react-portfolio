@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+html{
+  overflow-y: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: grid;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heroDark{
+  background-color: #242424;
+  color: #c1c1bc;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heroDark .header{
+  background-color: rgba(23, 23, 23, 0.7);
+}
+.heroDark .mobileMenuShow{
+  background-color: #292929;
+}
+.heroLight{
+  background-color: #c1c1bc;
+  color: #242424;
+}
+.heroLight .header{
+  background-color: rgba(219, 219, 211, 0.7);
+}
+.heroLight .mobileMenuShow{
+  background-color: #d3d3d0;
+}
+.moodIcon{
+  margin-left:15px;
+  margin-top: 75px;
+  display: flex;
+  padding: 1%;
+}
+.toggle{
+  width: 20px;
+}
+.sunmoon{
+  margin-left: 5px;
+}
+.heroDark a{
+  text-decoration: underline;
+  color: #c1c1bc;
+}
+.heroDark a:hover{
+  color: #dadad9;
+  transition: 0.5s;
+}
+.heroLight a{
+  text-decoration: underline;
+  color: #272727;
+}
+.heroLight a:hover{
+  color: #000;
+  transition: 0.5s;
+}
+.heroDark button{
+  background-color: #000;
+}
+.heroDark button:hover{
+  background-color: #151515;
+  transition: 0.5s;
+}
+.heroLight button{
+  background-color: #d0d0ce;
+}
+.heroLight button:hover{
+  background-color: #e8e8e0;
+  transition: 0.5s;
+}
+.heroDark section{
+  background-color: #c1c1bc;
+}
+.heroLight section{
+  background-color: #242424;
+}
+ul{
+  list-style-type: none;
+}
+.headerSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+.portfolioSection{
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 950px) {
+  .images {
+    visibility: hidden;
   }
 }
