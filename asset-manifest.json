@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.93daef19.css",
+    "main.js": "/react-portfolio/static/js/main.e1465a65.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/milehighyoga.mp4": "/react-portfolio/static/media/milehighyoga.809b39fcfe9e664330bb.mp4",
+    "static/media/realestate-sm.mp4": "/react-portfolio/static/media/realestate-sm.b9426160ac86588782f5.mp4",
+    "static/media/pexels-asim.jpg": "/react-portfolio/static/media/pexels-asim.e0f8ce649d3d4401da1e.jpg",
+    "static/media/AnekDevanagari-VariableFont_wdth,wght.ttf": "/react-portfolio/static/media/AnekDevanagari-VariableFont_wdth,wght.63f89f67174bcdb9587d.ttf",
+    "static/media/computer3.jpg": "/react-portfolio/static/media/computer3.82e9b0137d67ed27ef8d.jpg",
+    "static/media/LaravelProjSSCars.png": "/react-portfolio/static/media/LaravelProjSSCars.4c8c36f00e1dc3cacbdf.png",
+    "static/media/handshake.jpg": "/react-portfolio/static/media/handshake.2375190ccc5d199f0dbc.jpg",
+    "static/media/logo-bw.png": "/react-portfolio/static/media/logo-bw.699843564473cf6e8d20.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.93daef19.css.map": "/react-portfolio/static/css/main.93daef19.css.map",
+    "main.e1465a65.js.map": "/react-portfolio/static/js/main.e1465a65.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93daef19.css",
+    "static/js/main.e1465a65.js"
+  ]
+}
