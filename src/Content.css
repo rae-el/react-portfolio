@@ -6,23 +6,20 @@
     display: flex;
     align-items: left;
     justify-content: center;
-    width: 50%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 5%;
     flex-direction: column;
 }
 .content h1{
     font-weight: 700;
-    font-size: 3em;
     margin: 0;
 }
 .content h2{
     font-weight: 500;
-    font-size: 40px;
     margin: 0;
 }
 .content p{
-    font-size: 15px;
     width: 80%;
     font-weight: 200;
 }
@@ -38,18 +35,19 @@
     border: none;
     border-radius: 60px;
     margin: 2%;
+    cursor: pointer;
 }
 button a{
     text-decoration: none;
     font-size: 1.5em;
 }
-@media screen and (max-width: 1150px) {
+.portfolioLink{
+  cursor: pointer;
+}
+
+@media (min-width: 950px) {
     .content {
       width: 40%;
-    }
-  }
-@media screen and (max-width: 950px) {
-    .content {
-      width: 80%;
+      margin-left: 10%;
     }
   }

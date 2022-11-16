@@ -12,18 +12,13 @@
     height: 50px;
 }
 .menu{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: 0;
-    top:0;
-    width: 100%;
+    visibility: hidden;
 }
 .menu-item{
     padding: 1%;
     font-size:17px;
-    font-weight: lighter;   
+    font-weight: lighter;
+    cursor: pointer;
 }
 .menu-item:hover{
     font-size:18px;
@@ -43,15 +38,22 @@
     width: fit-content;
     height: fit-content;
     text-align: right;
-    right: 50px;
+    right: 2.5em;
     top:0;
 }
 .mobileMenuShow .menu-item{
     padding-right: 2%;
 }
 .hamburger{
-    visibility: hidden;
-    width: 0;
+    visibility: visible;
+    position: absolute;
+    overflow: visible;
+    font-size: 1.5em;
+    top:0;
+    right: 0;
+    margin: 2%;
+    padding: 1%;
+    z-index: 9;
 }
 .mobileMenuHide{
     visibility: hidden;
@@ -60,19 +62,19 @@
 .logo{
     z-index: 10;
 }
-@media screen and (max-width: 950px) {
+@media (min-width: 600px) {
     .hamburger{
-        visibility: visible;
-        position: absolute;
-        overflow: visible;
-        font-size: 1.5em;
-        top:0;
-        right: 0;
-        margin: 2%;
-        padding: 1%;
-        z-index: 9;
+        visibility: hidden;
+        width: 0;
     }
     .menu{
-        visibility: hidden;
+        visibility: visible;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top:0;
+        width: 100%;
     } 
 }

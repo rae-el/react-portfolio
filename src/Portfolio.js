@@ -26,27 +26,27 @@ function Portfolio(){
                         <div className='skillsUsed'>
                             <div className='skill'>
                                 <div className='skillIcon'><FaWordpressSimple/></div>
-                                <div className='skillDesc'>WordPress</div>
+                                <p className='skillDesc'>WordPress</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaJsSquare/></div>
-                                <div className='skillDesc'>JavaScript</div>
+                                <p className='skillDesc'>JavaScript</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaPhp/></div>
-                                <div className='skillDesc'>PHP</div>
+                                <p className='skillDesc'>PHP</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaHtml5/></div>
-                                <div className='skillDesc'>HTML</div>
+                                <p className='skillDesc'>HTML</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaCss3/></div>
-                                <div className='skillDesc'>CSS</div>
+                                <p className='skillDesc'>CSS</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><SiLaragon/></div>
-                                <div className='skillDesc'>Laragon</div>
+                                <p className='skillDesc'>Laragon</p>
                             </div>
                         </div>
                         <div className="projLink"><a href="https://github.com/rae-el/realestate-wordpress">GitHub Repository</a></div>
@@ -65,11 +65,11 @@ function Portfolio(){
                         <div className='skillsUsed'>
                             <div className='skill'>
                                 <div className='skillIcon'><SiCsharp/></div>
-                                <div className='skillDesc'>C#</div>
+                                <p className='skillDesc'>C#</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><SiXamarin/></div>
-                                <div className='skillDesc'>Xamarin</div>
+                                <p className='skillDesc'>Xamarin</p>
                             </div>
                         </div>
                         <div className="projLink"><a href="https://github.com/rae-el/weather-app-xamarin">GitHub Repository</a></div>
@@ -88,27 +88,27 @@ function Portfolio(){
                         <div className='skillsUsed'>
                             <div className='skill'>
                                 <div className='skillIcon'><FaLaravel/></div>
-                                <div className='skillDesc'>Laravel</div>
+                                <p className='skillDesc'>Laravel</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaDatabase/></div>
-                                <div className='skillDesc'>SQL</div>
+                                <p className='skillDesc'>SQL</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaPhp/></div>
-                                <div className='skillDesc'>PHP</div>
+                                <p className='skillDesc'>PHP</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><SiTailwindcss/></div>
-                                <div className='skillDesc'>Tailwind</div>
+                                <p className='skillDesc'>Tailwind</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaUbuntu/></div>
-                                <div className='skillDesc'>Ubuntu</div>
+                                <p className='skillDesc'>Ubuntu</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaDocker/></div>
-                                <div className='skillDesc'>Docker</div>
+                                <p className='skillDesc'>Docker</p>
                             </div>
                         </div>
                         <div className="projLink"><a href="https://github.com/rae-el/LaravelMariadbApp">GitHub Repository</a></div>
@@ -129,11 +129,11 @@ function Portfolio(){
                         <div className='skillsUsed'>
                             <div className='skill'>
                                 <div className='skillIcon'><FaHtml5/></div>
-                                <div className='skillDesc'>HTML</div>
+                                <p className='skillDesc'>HTML</p>
                             </div>
                             <div className='skill'>
                                 <div className='skillIcon'><FaCss3/></div>
-                                <div className='skillDesc'>CSS</div>
+                                <p className='skillDesc'>CSS</p>
                             </div>
                         </div>
                         <div className="projLink"><a href="https://github.com/rae-el/website-yoga">GitHub Repository</a></div>

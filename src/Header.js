@@ -24,9 +24,9 @@ function Header() {
                 <li className="menu-item">
                     <Link to="experience" smooth={true} duration={500}>Skills</Link>
                 </li>
-                <li className="menu-item"><a href='https://drive.google.com/file/d/1SfaBvTOrEvwz8btVMvobGl_dRbdAntLD/view?usp=sharing'>CV</a></li>
-                <li className="menu-item"><a href='https://www.linkedin.com/in/rachel-white-5470b4102/'>LinkedIn</a></li>
-                <li className="menu-item"><a href='https://github.com/rae-el'>GitHub</a></li>
+                <li className="menu-item"><a href='https://drive.google.com/file/d/1SfaBvTOrEvwz8btVMvobGl_dRbdAntLD/view?usp=sharing' target="_blank" rel="noreferrer noopener">CV</a></li>
+                <li className="menu-item"><a href='https://www.linkedin.com/in/rachel-white-5470b4102/' target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+                <li className="menu-item"><a href='https://github.com/rae-el' target="_blank" rel="noreferrer noopener">GitHub</a></li>
             </ul>
             {/*mobile*/}
             <div className={!nav ? 'mobileMenuHide' : 'mobileMenuShow'}>
@@ -34,9 +34,9 @@ function Header() {
                 <li className="menu-item"><Link to="content"  onClick={handleClick} smooth={true} duration={500}>About</Link></li>
                 <li className="menu-item"><Link to="portfolio"  onClick={handleClick} smooth={true} duration={500}>Portfolio</Link></li>
                 <li className="menu-item"><Link to="experience"  onClick={handleClick} smooth={true} duration={500}>Skills</Link></li>
-                <li className="menu-item"><a href='https://drive.google.com/file/d/1SfaBvTOrEvwz8btVMvobGl_dRbdAntLD/view?usp=sharing'>CV</a></li>
-                <li className="menu-item"><a href='https://www.linkedin.com/in/rachel-white-5470b4102/'>LinkedIn</a></li>
-                <li className="menu-item"><a href='https://github.com/rae-el'>GitHub</a></li>
+                <li className="menu-item"><a href='https://drive.google.com/file/d/1SfaBvTOrEvwz8btVMvobGl_dRbdAntLD/view?usp=sharing' target="_blank" rel="noreferrer noopener">CV</a></li>
+                <li className="menu-item"><a href='https://www.linkedin.com/in/rachel-white-5470b4102/' target="_blank" rel="noreferrer noopener">LinkedIn</a></li>
+                <li className="menu-item"><a href='https://github.com/rae-el' target="_blank" rel="noreferrer noopener">GitHub</a></li>
                 </ul>
             </div>
             {/*hamburger*/}

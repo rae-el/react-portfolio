@@ -7,6 +7,18 @@ body{
   overflow: hidden;
   display: grid;
 }
+h1{
+  font-size: 3.3em;
+}
+h2{
+  font-size: 1.575em;
+}
+p{
+  font-size: 1em;
+}
+a{
+  font-size: 1em;
+}
 .heroDark{
   background-color: #242424;
   color: #c1c1bc;
@@ -28,7 +40,7 @@ body{
   background-color: #d3d3d0;
 }
 .moodIcon{
-  margin-left:15px;
+  margin-left:12px;
   margin-top: 75px;
   display: flex;
   padding: 1%;
@@ -78,24 +90,11 @@ body{
 ul{
   list-style-type: none;
 }
-.headerSection{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  flex-direction: row;
+.images {
+  visibility: hidden;
 }
-.portfolioSection{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
-@media screen and (max-width: 950px) {
+@media (min-width: 950px) {
   .images {
-    visibility: hidden;
+    visibility: visible;
   }
 }

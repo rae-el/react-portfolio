@@ -17,10 +17,15 @@
     height: 3px;
     margin-bottom: 25px;
 }
+.projDesc{
+    padding: 2%;
+}
 .skillsUsed{
+    padding: 2%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .skill{
     margin: 2%;
@@ -34,14 +39,14 @@
 }
 #projVideo1, #projVideo4{
     margin: auto;
-    width: 600px;
-    height: 350px;
+    width: 80%;
 }
 #projImg3{
     background: url(images/LaravelProjSSCars.png) no-repeat 50% 50%;
     background-size: cover;
-    width: 600px;
-    height: 350px;
+    width: 20em;
+    height: 15em;
+    margin: auto;
 }
 #realestate, #milehighyoga{
     width: 100%;
@@ -52,8 +57,8 @@
     margin: auto;
     margin-bottom: 7%;
 }
-@media screen and (max-width: 950px) {
-    #projVideo1, #projVideo4{
-        width: 80%;
+@media (min-width: 600px) {
+    #projVideo1, #projVideo4, #projImg3{
+        width: 50%;
     }
   }
