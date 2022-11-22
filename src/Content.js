@@ -1,4 +1,4 @@
-import {FaGithubSquare, FaLinkedin, FaRegFileAlt} from 'react-icons/fa';
+//import {FaGithubSquare, FaLinkedin, FaRegFileAlt} from 'react-icons/fa';
 
 import './Content.css';
 
@@ -27,11 +27,13 @@ function Content() {
               My friendly demeanor and calm presence even when under pressure allows for smooth teamwork and great client service.
             </p>
             <p>Scroll down to explore my portfolio</p>
+            {/*
             <div className="connect">
               <button><a href='https://github.com/rae-el' target="_blank" rel="noreferrer noopener"><FaGithubSquare/></a></button>
               <button><a href='https://www.linkedin.com/in/rachel-white-5470b4102/' target="_blank" rel="noreferrer noopener"><FaLinkedin/></a></button>
               <button><a href='https://drive.google.com/file/d/1SfaBvTOrEvwz8btVMvobGl_dRbdAntLD/view?usp=sharing' target="_blank" rel="noreferrer noopener"><FaRegFileAlt/></a></button>
             </div>
+            */}
           </div>
         </div>
         )

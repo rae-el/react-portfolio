@@ -44,6 +44,8 @@ a{
   margin-top: 75px;
   display: flex;
   padding: 1%;
+  cursor: pointer;
+  width: fit-content;
 }
 .toggle{
   width: 20px;
