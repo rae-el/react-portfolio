@@ -1,3 +1,3 @@
-# Rachel White Portfolio
+# My Portfolio
 
-I created this project with [Create React App](https://github.com/facebook/create-react-app).
+This is my portfolio website which I created with React, it includes a light/dark mode button and snippets of different projects
